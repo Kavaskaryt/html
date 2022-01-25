@@ -140,9 +140,12 @@ imap ]lo <ol type=""><cr></ol><esc>ko
 "it is a list it must be ordered in other words it never change its order
 "its type may be A or 1
 "
-
-imap ]ld <dl><cr></dl><esc>4hi
-imap ]lt <dt><cr>
+"DESCRIPTION LIST
+imap ]ld <dl><cr></dl><esc>ko
+"this is the list which had the description terms and defnition for that term
+imap ]lt <dt></dt><esc>4hi
+"it is the term for which we are going to define the defnition as the element
+imap ]dd <dd></dd><esc>4hi
 
 "CLASSES AND ID TAGS
 "CLASS NAME
@@ -179,5 +182,10 @@ imap [i <link href="" type="">
 "1.rel-
 "2.type-this specifies which type its going to link
 "3.href-this is the reference of the css file
-"
-imap 
+"TABLE tag
+imap ]bt <table></table><esc>7hi
+"this is the table tag which adds some of the table frame work in the html
+"code 
+"like it brings up the table  row etc..,
+imap ]br <tr><cr></tr><esc>ko
+"this gives the table rows 
